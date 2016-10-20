@@ -63,4 +63,4 @@ AS
       INSERT INTO z_32414.dbo.Platnosc
       ( id_rezerwacji, kwota, ilosc_dni, id_s_platnosc, status)
       VALUES(@id_rezerwacji, @kwota, @ilosc_dni, @id_s_platnosc,@status);
-END
+  END
